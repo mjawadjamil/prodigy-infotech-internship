@@ -58,7 +58,7 @@ function resetHandle () {
     }
     interval = null;
     time = 0;
-    display.innerHTML = "00 : 00 : 00";
+    display.innerHTML = "00:00:00";
     clearlaps();
 }
 
