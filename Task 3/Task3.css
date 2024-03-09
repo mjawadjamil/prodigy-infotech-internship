@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+    
+}
+
+.entries{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    text-align: center;
+}
+
+input {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+    /* box-sizing: border-box; */
+    /* margin-bottom: 5px; */
+}
+
+.cell{
+    text-align: center;
+    font-weight: bold;
+}
+
+.reset{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btnreset{
+    padding: 10px 20px;
+    font-weight: bolder;
+    color: white;
+    background: green;
+    border-style: none;
+    border-radius: 5px;
+}
+
+
+.print_res{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+

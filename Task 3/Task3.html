@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Task3.css">
+    <title>Task 3</title>
+</head>
+<body>
+    <div class="intro">
+        <h2>Game Start by Just Tap on Box</h2>
+        <h3>Fisrt Player Start as <span style= color:red;>Player X</span> And Second Player as <span style= color:red;>Player O</span></h3>
+    </div>
+
+    <div class="entries">
+        <div class="row1">
+            <input type="text" class="cell" name="" id="b1" onclick="func_b1(); myfunc();" readonly>
+            <input type="text" class="cell" name="" id="b2" onclick="func_b2(); myfunc();" readonly>
+            <input type="text" class="cell" name="" id="b3" onclick="func_b3(); myfunc();" readonly>
+        </div>
+    
+        <div class="row2">
+            <input type="text" class="cell" name="" id="b4" onclick="func_b4(); myfunc();" readonly>
+            <input type="text" class="cell" name="" id="b5" onclick="func_b5(); myfunc();" readonly>
+            <input type="text" class="cell" name="" id="b6" onclick="func_b6(); myfunc();" readonly>
+        </div>
+    
+        <div class="row3">
+            <input type="text" class="cell" name="" id="b7" onclick="func_b7(); myfunc();" readonly>
+            <input type="text" class="cell" name="" id="b8" onclick="func_b8(); myfunc();" readonly>
+            <input type="text" class="cell" name="" id="b9" onclick="func_b9(); myfunc();" readonly>
+        </div>
+    </div>
+    <div class="reset">
+        <button class="btnreset" onclick="func_reset()">RESET</button>
+    </div>
+
+    <div class="print_res">
+        <h1 id="print"></h1>
+    </div>
+
+    <script src="Task3.js"></script>
+</body>
+</html>
