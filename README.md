@@ -2,7 +2,7 @@ In my internship at Pridogy Tech Info, I will be solving five tasks.
 
 Task 1: Responsive Landing Page
 
-Task 2: Stop Watching Web Applications
+Task 2: Stop Watch Web Applications
 
 Task 3: (Tic-Ta-Toe) Web Application
 
