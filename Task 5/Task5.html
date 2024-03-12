@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="Task5.css">
     <title>Weather Web Application</title>
 </head>
+
 <body>
     <div class="weather-container">
         <img src="./images/Weather.jpg" alt="">
@@ -14,13 +16,17 @@
             <h1>Weather APP</h1>
             <div class="second">
                 <input type="text" name="" id="inputlocation">
-                <button class="Search"><i class="fas fa-search"></i></button>
-                    <!-- <button class="Search">Search</button> -->
+                <!-- <button class="Search" onclick="displayWeather()" ><i class="fas fa-search"></i></button> -->
+                <button class="Search" onclick="getdetails()">Search</button>
             </div>
-            <h4 class="temperature">25.07 C</h4>
-            <h4 class="feel">Normal - Feeling Ecstatic</h4>
+            <h3 class="country">Location</h3>
+            <h3 class="temperature">Temperature</h3>
+            <h3 class="feel">Description</h3>
+            <h3 class="wind">Wind Speed</h3>
         </div>
+
     </div>
-    <script src="Task5.js"></script>
+    <script src="Task5.js"></script>3
 </body>
+
 </html>
