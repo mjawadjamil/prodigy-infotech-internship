@@ -17,7 +17,7 @@ img{
 
 .weather{
     background: rgba(128, 128, 128, 0.3);
-    backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+    backdrop-filter: blur(5px); /* Apply a blur effect to the background */
     border-radius: 10px; /* Rounded corners for the glass effect */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); 
     color: white;
@@ -47,4 +47,21 @@ input{
     align-items: center;
 
     /* justify-content: space-between; */
+}
+
+.Search{
+    border-radius: 50%;
+    padding: 8px;
+    color: white;
+    /* border: blue; */
+    background: grey;
+}
+
+.temperature{
+    /* margin-bottom: 0%; */
+}
+
+
+.feel{
+    margin-top: 0%;
 }
